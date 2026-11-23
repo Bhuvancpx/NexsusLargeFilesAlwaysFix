@@ -1,4 +1,4 @@
-package com.example.nexsus_ai
+package com.nexsusai.app
 
 import android.Manifest
 import android.app.ActivityManager
@@ -1551,7 +1551,7 @@ class MainActivity : FlutterActivity() {
             mapOf(
                 "started" to true,
                 "permissionRequired" to false,
-                "automatic" to true,
+                "automatic" to false,
                 "notificationAccess" to
                     isNotificationAccessEnabled()
             )
